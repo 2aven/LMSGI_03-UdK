@@ -24,7 +24,7 @@ Planificació:
 1. [x] Revisió ortogràfica i gramatical amb [SoftCatala](https://www.softcatala.org/corrector/)
 1. [x] Crear arxiu XSD relacionat amb XML
 1. [x] [Validació XML][ValXML]
-1. [ ] [Validació][Validator]
+1. [x] [Validació][Validator]
 1. [ ] Crear una branca github amb versió mimificada
     - [ ] HTML
     - [ ] CSS
