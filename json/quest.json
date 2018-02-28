@@ -1,0 +1,127 @@
+{
+	"questions": {
+		"question": [
+			{
+				"type": "text",
+				"title": "Anomena el sòlid platònic que és el dual de l'icosaedre.",
+				"answer": "Dodecaedre",
+				"_id": "Q_01"
+			},
+			{
+				"type": "text",
+				"title": "Anomena el sistema formal de geometria que no satisfà el cinquè postulat d'Euclides i te curvatura negativa",
+				"answer": "Geometria euclidiana",
+				"_id": "Q_02"
+			},
+			{
+				"type": "select",
+				"title": "Indica quina identitat trigonomètrica és falsa:",
+				"option": [
+					"sin(-x) = sin(x + π)",
+					"cos(x) = cos(x + π)",
+					"tan(x) = cot(π/2 - x)",
+					"cot(-x) = -cot(x)"
+				],
+				"answer": "2",
+				"_id": "Q_03"
+			},
+			{
+				"type": "select",
+				"title": "El producte infinit d'Euler equival a:",
+				"option": [
+					"2sin(2θ)",
+					"cos(θ)/2",
+					"sin(θ)/2",
+					"sin(θ)/θ"
+				],
+				"answer": "4",
+				"_id": "Q_04"
+			},
+			{
+				"type": "checkbox",
+				"title": "Marca les afirmacions correctes referents a un cos algebraic (F,+,*)",
+				"option": [
+					"Existeix un element neutre per la suma i un altre element neutre per la multiplicació",
+					"Tot element del cos té invers per la suma i la multiplicació",
+					"Les operacions + i * són binàries en F",
+					"(F,+,*) representa un anell commutatiu"
+				],
+				"answer": [
+					"1",
+					"3",
+					"4"
+				],
+				"_id": "Q_05"
+			},
+			{
+				"type": "checkbox",
+				"title": "Marca quins són exemples de cossos algebraics",
+				"option": [
+					"Els nombres naturals",
+					"Els enters de Gauss",
+					"Els nombres reals",
+					"Un conjunt format només pels elements 0 i 1"
+				],
+				"answer": [
+					"3",
+					"4"
+				],
+				"_id": "Q_06"
+			},
+			{
+				"type": "radio",
+				"title": "Donada una funció f integrable sobre l'interval [a,b], i definida F(x) sobre [a,b] per la seva integral d'extrems a i x de f(t)dt:",
+				"option": [
+					"Si f és contínua a un punt c de l'interval (a,b), aleshores F és derivable en c, i F'(c)=f(c)",
+					"Si f és contínua a un punt c de l'interval (a,b), aleshores F és contínua en c, i F'(c)=f(c)",
+					"Si f és contínua a un punt c de l'interval [a,b], aleshores F és derivable en c, i F'(c)=f(c)",
+					"Cap de les respostes anteriors és correcta."
+				],
+				"answer": "1",
+				"_id": "Q_07"
+			},
+			{
+				"type": "radio",
+				"title": "La integral de Lebesgue...",
+				"option": [
+					"Data de principis del segle XVIII",
+					"És l'única que defineix l'àrea avall d'una corba de convexitat positiva dins un entorn obert",
+					"És l'extensió de la integral de Reimann a una classe ampliada de funcions reals que estén els possibles dominis en el qual les integrals es poden definir",
+					"es difèrencia de la integral de Reimann en la que no manté la monotonia"
+				],
+				"answer": "3",
+				"_id": "Q_08"
+			},
+			{
+				"type": "multiple",
+				"title": "La transformada de Fourier:",
+				"option": [
+					"És empleada per transformar funcions entre el domini del temps i el domini de la freqüència",
+					"Té la propietat de ser reversible",
+					"Només és reversible si la funció és periòdica",
+					"No es pot estendre a espais de funcions majors o a espais de funcions generalitzades"
+				],
+				"answer": [
+					"1",
+					"2"
+				],
+				"_id": "Q_09"
+			},
+			{
+				"type": "multiple",
+				"title": "Teorema fonamental de l'àlgebra:",
+				"option": [
+					"Tot polinomi de coeficients reals i de grau n major que zero, té exactament n arrels reals",
+					"Tot polinomi de coeficients complexos i de grau n major que zero, té exactament n arrels",
+					"El cos dels nombres complexos és obert per a les operacions algebraiques",
+					"Tot polinomi en una variable de grau n major que zero amb coeficients reals o complexos té almenys una arrel real o complexa"
+				],
+				"answer": [
+					"2",
+					"4"
+				],
+				"_id": "Q_10"
+			}
+		]
+	}
+}

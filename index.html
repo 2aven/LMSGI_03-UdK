@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ca">
+	<head>
+		<title>Universitat de Krekovic - Facultat de matemàtiques</title>
+		<link rel="stylesheet" type="text/css" href="css/estil.css">
+		<link rel="icon" type="image/png" href="img/icon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Tasca LMSGI - Exàmen amb autoevaluació">
+		<!-- Open Graph Protocol-->
+	<meta property="og:site_name" content="Exàmen amb autoevaluació">
+	<meta property="og:url" content=" ">
+	<meta property="og:title" content="Universitat de Krekovic - Facultat de matemàtiques">
+	<meta property="og:image" content="img/logo.png">
+	<meta property="og:description" content="Tasca LMSGI - Exàmen amb autoevaluació">
+		<!-- : : : -->
+		<meta name="author" content="Andreu Bió">
+		<meta name="keywords" content="Exàmen, test, matemàtiques, Krekovic">
+		<meta charset="utf-8">
+		<script src="js/js.js"></script>
+	</head>
+<body>
+	<div id="cos">
+	<div id="pagina">
+		<header>
+			<div id="logo">
+			<h1><a href="index.html">Universitat de Krekovic</a></h1>
+			<h2>Facultat de matemàtiques</h2>
+			</div>
+		</header>
+		<div id="intro">
+		<h3>Benvingut a la plana web de la Facultat de matemàtiques de l'Universitat de Krekovic.</h3>
+			<div id="caixatxt"><p>A continuació s'indicaran les instruccions per realitzar el test de matemàtiques, i quan es trobi mentalment preparat per sotmetre's a l'esforç intel·lectual, premi el botó per entrar a l'examen.</p>
+				<p>L'examen compta amb un total de 10 qüestions, amb diferents mètodes d'introducció:</p>
+				<ul>
+					<li><p>Text: s'ha d'emplenar amb el nom adequat. No s'espera que escrigui els articles, només una paraula començant amb lletra majúscula.</p></li>
+					<li><p>Selector en panell: s'ha d'escollir la fórmula adequada que es demana.</p></li>
+					<li><p>Selector de caselles: s'ha d'escollir les descripcions adequades; n'hi ha més d'una correcta.</p></li>
+					<li><p>Selector radial: s'ha d'escollir l'opció correcta, en aquest cas només una.</p></li>
+					<li><p>Selector múltiple: s'han d'escollir les frases correctes, en aquest cas n'hi ha més d'una a seleccionar (Ctrl+Click).</p></li>
+				</ul>
+				<p>Les qüestions que tenen una sola resposta o opció, puntuen amb un punt si són correctes, però descompten mig punt en cas contrari. Per altra banda, les qüestions on intervenen múltiples respostes, es comptarà un quart de punt per cada apartat correcte, o al contrari es descomptarà la mateixa quantitat. No es poden deixar qüestions sense contestar.</p>
+				<p>Quan hagi emplenat totes les qüestions, premi el botó de Corregir. Es calcularà la nota dins l'interval [ 0 , 10 ]</p>
+				<p>Bona sort!</p>
+			</div>
+		<button type="button" id="introButton"> Entra a l'examen </button>
+		</div>
+		<div id="test">
+			<form id="formulari">
+			<ol>
+				<li><h3 id="quest01"></h3></li>
+				<input type="text" id="prova_01" name="prova_txt01" class="text">
+				<li><h3 id="quest02"></h3></li>
+				<input type="text" id="prova_02" name="prova_txt01" class="text">
+				<li><h3 id="quest03"></h3></li>
+				<select id="prova_03">
+					<option selected value="-1">Tria una opció:</option>
+				</select>
+				<li><h3 id="quest04"></h3></li>
+				<select id="prova_04">
+					<option selected value="-1">Tria una opció:</option>
+				</select>
+				<li><h3 id="quest05"></h3></li>
+				<div id="prova_05"></div>
+				<li><h3 id="quest06"></h3></li>
+				<div id="prova_06"></div>
+				<li><h3 id="quest07"></h3></li>
+				<div id="prova_07"></div>
+				<li><h3 id="quest08"></h3></li>
+				<div id="prova_08"></div>
+				<li><h3 id="quest09"></h3></li>
+				<select multiple id="prova_09"></select>
+				<li><h3 id="quest10"></h3></li>
+				<select multiple id="prova_10"></select>
+			</ol>
+			<div id="botons">
+				<input type='submit' id="submitButton" value='Corregir' class="button">
+				<input type="reset" id="resetButton" value="Reset" class="button">
+			</div>
+			</form>
+	<div id="evaluacio">
+		<h3 id="NotaEval">Nota: 0</h3>
+		<ul>
+		<li><h3>Qüestió 1:</h3>
+		<p id="resultat_01">0</p>
+		<li><h3>Qüestió 2:</h3>
+		<p id="resultat_02">0</p>
+		<li><h3>Qüestió 3:</h3>
+		<p id="resultat_03">0</p>
+		<li><h3>Qüestió 4:</h3>
+		<p id="resultat_04">0</p>
+		<li><h3>Qüestió 5:</h3>
+		<p id="resultat_05">0</p>
+		<li><h3>Qüestió 6:</h3>
+		<p id="resultat_06">0</p>
+		<li><h3>Qüestió 7:</h3>
+		<p id="resultat_07">0</p>
+		<li><h3>Qüestió 8:</h3>
+		<p id="resultat_08">0</p>
+		<li><h3>Qüestió 9:</h3>
+		<p id="resultat_09">0</p>
+		<li><h3>Qüestió 10:</h3>
+		<p id="resultat_10">0</p>
+		</ul>
+		<button type="button" id="reloadButton"> Recarrega </button>
+	</div>
+	</div>
+	<footer><p>Escrit per: Andreu Bió</p></footer>
+</body>
+</html>
