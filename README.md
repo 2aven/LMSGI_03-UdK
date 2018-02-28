@@ -1,7 +1,7 @@
 # LMSGI - Universitat de Krekovik
 ## Exàmen amb autocorrecció (HTML, CSS, JS, XML)
 
-### [Exàmen d'accés](https://rawgit.com/2aven/LMSGI_03-UdK/master/index.html)
+### [Exàmen d'accés](https://rawgit.com/2aven/LMSGI_03-UdK/minify/index.html)
 
 Planificació:
 1. [x] Contingut base HTML de la plana d'introducció i test.
@@ -23,12 +23,11 @@ Planificació:
 1. [x] Generar arxiu JSON amb el contingut del XML json/quest.json
 1. [x] Revisió ortogràfica i gramatical amb [SoftCatala](https://www.softcatala.org/corrector/)
 1. [x] Crear arxiu XSD relacionat amb XML
-1. [x] [Validació XML][ValXML]
+1. [x] [Validació XML](http://www.xmlvalidation.com/)
 1. [x] [Validació][Validator]
-1. [ ] Crear una branca github amb versió mimificada
-    - [ ] HTML
-    - [ ] CSS
-    - [ ] [Validació][Validator]
+1. [x] Crear una branca github mimificada amb [Minify Code](http://minifycode.com/)
+    - [x] HTML
+    - [x] CSS
+    - [x] [Validació][Validator]
 
 [Validator]: https://validator.w3.org/
-[ValXML]: http://www.xmlvalidation.com/ 
