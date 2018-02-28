@@ -25,10 +25,9 @@ Planificació:
 1. [x] Crear arxiu XSD relacionat amb XML
 1. [x] [Validació XML][ValXML]
 1. [x] [Validació][Validator]
-1. [ ] Crear una branca github amb versió mimificada
-    - [ ] HTML
-    - [ ] CSS
-    - [ ] [Validació][Validator]
+1. [x] Crear una branca github mimificada amb [Minify Code](http://minifycode.com/)
+    - [x] HTML
+    - [x] CSS
+    - [x] [Validació][Validator]
 
 [Validator]: https://validator.w3.org/
-[ValXML]: http://www.xmlvalidation.com/ 
